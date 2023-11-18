@@ -14,7 +14,7 @@ def is_prime(n):
 
 
 def main():
-    for i in range(1000000):
+    for i in range(int(math.pow(2, 31))):
         if is_prime(i):
             print(f'{i} is prime')
 
